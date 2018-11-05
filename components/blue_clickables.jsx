@@ -448,19 +448,19 @@ class BlueClickable extends React.Component {
   }
 
   render() {
-    return (
-      <div className="clickBox">
-        <canvas
-          ref={this.cashCanv}
-          width={150}
-          height={150}
-          className="cashCanv"
-          onMouseDown={this.addMoney}
-          onMouseUp={this.hoverMoney}
-          onMouseEnter={this.hoverMoney}
-          onMouseLeave={this.unhoverMoney}
-        />
-      </div>
+    return(
+    <div className="clickBox">
+      <canvas
+        ref={this.cashCanv}
+        width={150}
+        height={150}
+        className="cashCanv"
+        onMouseDown={this.addMoney}
+        onMouseUp={this.hoverMoney}
+        onMouseEnter={this.hoverMoney}
+        onMouseLeave={this.unhoverMoney}
+      />
+    </div>
     );
   }
 }
