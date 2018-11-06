@@ -1,3 +1,0 @@
-https://hackernoon.com/how-to-take-advantage-of-local-storage-in-your-react-projects-a895f2b2d3f2 - for hydrateStateWithLocalStorage
-https://www.markgirling.net/2018/04/13/intro-react-build-incremental-game-part-1/ - for extremely basic structure of Clickable
-https://stackoverflow.com/questions/26267684/canvas-rotating-paths - for rotating my sord
