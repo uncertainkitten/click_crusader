@@ -130,7 +130,7 @@ isAdvanced() {
 
 And of course, as an incremental game, your numbers really should go up.
 
-![alt-text](https://gph.is/2RKpOzA "Gotta get dem numbers up")
+![alt-text](https://media.giphy.com/media/w6yZDzdsj5g2pmmsGz/giphy.gif "Gotta get dem numbers up")
 
 ```
 addPower() {
@@ -152,7 +152,7 @@ addPower() {
 ```
 
 ### Dynamic Clicker Animations
-![alt-text](https://gph.is/2PhDqFv "Poor Slime :(")
+![alt-text](https://media.giphy.com/media/1iv6N0IOj3EO01pZXw/giphy.gif "Poor Slime :(")
 
 Using Canvas, I implemented a 3 stage click function that first checks if you are hovering over the clicker, and then checks if your mouse is pressed down or up on that clicker.
 
