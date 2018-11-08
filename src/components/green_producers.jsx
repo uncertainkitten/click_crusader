@@ -34,20 +34,24 @@ class GreenProducer extends React.Component {
   componentDidMount() {
     this.isAdvanced();
     this.calculateBase();
-    this.setState({
-      charismaCost: parseInt(localStorage.getItem(`charismaCost${this.state.charismaLevel}`)),
-      charismaCount: parseInt(localStorage.getItem(`charismaCount${this.state.charismaLevel}`))
-    });
+    if (localStorage.hasOwnProperty(`charismaCost${this.state.charismaLevel}`)){
+      this.setState({
+        charismaCost: parseInt(localStorage.getItem(`charismaCost${this.state.charismaLevel}`)),
+        charismaCount: parseInt(localStorage.getItem(`charismaCount${this.state.charismaLevel}`))
+      });
+    } else {
+      let level = this.state.charismaLevel
+      this.setState({
+        charismaCost: ((level * (13 + level) ** level) - ((level * (13 + level) ** level) % (10 ** (level - 1)))),
+        count: 0
+      });
+    }
     this.processNums();
   }
 
   componentDidUpdate(prevProps, prevState) {
     if (this.state.activeCharismaBonus !== prevState.activeCharismaBonus) {
       this.giveState();
-    }
-
-    if (this.state.charismaCount !== prevState.charismaCount) {
-      this.processNums();
     }
   }
 
@@ -66,6 +70,10 @@ class GreenProducer extends React.Component {
 
     if (nextProps.eventLevel !== this.props.eventLevel){
       this.isAdvanced();
+    }
+
+    if (this.state.charismaCount !== nextProps.charismaCount) {
+      this.processNums();
     }
   }
 

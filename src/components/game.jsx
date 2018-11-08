@@ -212,8 +212,6 @@ class Game extends React.Component {
       passiveCharismaBonus: 0,
       activeCharismaBonus: 0,
       activeMoneyBonusCha: 0,
-      cost: 10,
-      count: 0,
       red: 0,
       green: 0,
       blue: 0,
@@ -272,7 +270,10 @@ class Game extends React.Component {
       charismaCount8: 0,
       charismaCost9: 10865400000000,
       charismaCount9: 0,
-      hoverReset: false
+      hoverReset: false,
+      hoverPower: false,
+      hoverMoney: false,
+      hoverCharisma: false
     });
   }
 
@@ -407,7 +408,6 @@ class Game extends React.Component {
       this.setState({ charismaString: `${Math.trunc(this.state.Charisma / 10) / 100}K` });
     }
   }
-
 
   render() {
     let events = "";

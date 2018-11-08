@@ -1,7 +1,7 @@
 {
   "name": "click_crusader",
   "version": "0.1.0",
-  "homepage": "http://uncertainkitten.github.io/click_crusader",
+  "homepage": "https://uncertainkitten.github.io/click_crusader/",
   "private": true,
   "dependencies": {
     "react": "^16.6.0",

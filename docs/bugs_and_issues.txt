@@ -1,0 +1,28 @@
+-Error handling should gray out purchase items
+-Make it clearer what charisma does
+-errors shouldn't highlight
+-game is fairly boring early on (set fourth event very soon after third)
+-fix tooltips
+-Events look like they can fail but don't actually have that tension
+-Text size should be more consistent
+-Numbers should be bigger
+-Better font and contrast for charisma
+-consider dimming colors
+-had to scroll to hit other items
+-onclick doesn't hit top of charisma clicker
+-blue text + black background - hard to read
+-logo shouldn't drag
+-Events are confusing - add more exposition
+-change color schemes
+-Maybe have sidebar move with scrolling
+-PROGRESS BARS!!!
+-Tie events to total resources
+-Gray out the next level so people can see FUTURE BONUSES
+-responsive design plz
+- Visual issue with refreshing page
+-Passive Cha stops ticking when you buy things
+-error messages hang around after "get bigger sord"
+
+
+
+-coolers.co for color scheme generation

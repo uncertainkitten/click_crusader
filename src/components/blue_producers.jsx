@@ -28,10 +28,18 @@ class BlueProducer extends React.Component {
   componentDidMount() {
     this.calculateBase();
     this.isAdvanced();
-    this.setState({
-      moneyCost: parseInt(localStorage.getItem(`moneyCost${this.state.moneyLevel}`)),
-      moneyCount: parseInt(localStorage.getItem(`moneyCount${this.state.moneyLevel}`))
-    });
+    if (localStorage.hasOwnProperty(`moneyCost${this.state.moneyLevel}`)){
+      this.setState({
+        moneyCost: parseInt(localStorage.getItem(`moneyCost${this.state.moneyLevel}`)),
+        moneyCount: parseInt(localStorage.getItem(`moneyCount${this.state.moneyLevel}`))
+      });
+    } else {
+      let level = this.state.moneyLevel
+      this.setState({
+        moneyCost: ((level * (15 + level) ** level) - ((level * (15 + level) ** level) % (10 ** (level - 1)))),
+        count: 0
+      });
+      }
     this.processCostNum();
     this.processBonusNum();
   }

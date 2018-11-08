@@ -28,7 +28,18 @@ class Producer extends React.Component {
   componentDidMount() {
     this.calculateBase();
     this.isAdvanced();
-    this.setState({ cost: parseInt(localStorage.getItem(`cost${this.state.level}`)), count: parseInt(localStorage.getItem(`count${this.state.level}`))});
+    if (localStorage.hasOwnProperty(`cost${this.state.level}`)){
+      this.setState({
+        cost: parseInt(localStorage.getItem(`cost${this.state.level}`)),
+        count: parseInt(localStorage.getItem(`count${this.state.level}`))
+      });
+    } else {
+      let level = this.state.level
+      this.setState({
+        cost: ((level * (10 + level) ** level) - ((level * (10 + level) ** level) % (10 ** (level - 1)))),
+        count: 0
+      });
+    }
   }
 
   componentDidUpdate(prevProps, prevState) {
