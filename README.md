@@ -126,7 +126,7 @@ isAdvanced() {
   }
 ```
 
-![alt-text](https://github.com/uncertainkitten/click_crusader/blob/master/Lock.PNG "Click Crusader!!!")
+![alt-text]https://github.com/uncertainkitten/click_crusader/blob/master/Lock.png "More power!")
 
 And of course, as an incremental game, your numbers really should go up.
 
