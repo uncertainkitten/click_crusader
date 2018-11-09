@@ -49,9 +49,9 @@ class Clickable extends React.Component {
     ctx.rotate(Math.PI * 0.15);
     // sord blade
     var sordGrad = ctx.createLinearGradient(30, 20, 50, 80);
-    sordGrad.addColorStop(0, "#FF4444");
-    sordGrad.addColorStop(0.5, "#BB2222");
-    sordGrad.addColorStop(1, "#442222");
+    sordGrad.addColorStop(0, "#8C2E15");
+    sordGrad.addColorStop(0.5, "#5A0C03");
+    sordGrad.addColorStop(1, "#390A01");
     ctx.strokeStyle = "black";
     ctx.fillStyle = sordGrad;
     ctx.lineWidth = 2.0;
@@ -77,7 +77,7 @@ class Clickable extends React.Component {
 
     //sord hilt
     var hiltGrad = ctx.createLinearGradient(10, 80, 70, 120);
-    hiltGrad.addColorStop(0, "#000000");
+    hiltGrad.addColorStop(0, "#111111");
     hiltGrad.addColorStop(0.5, "#333333");
     hiltGrad.addColorStop(1, "#666666");
     ctx.strokeStyle = "black";
@@ -101,8 +101,8 @@ class Clickable extends React.Component {
     ctx.restore();
 
     // slime
-    ctx.strokeStyle = "blue";
-    ctx.fillStyle = "blue";
+    ctx.strokeStyle = "#770077";
+    ctx.fillStyle = "#770077";
     ctx.lineWidth = 2.0
     ctx.beginPath();
     ctx.ellipse(120, 60, 25, 25, 0, Math.PI * 1, Math.PI * 2, false);
@@ -181,9 +181,9 @@ class Clickable extends React.Component {
     ctx.clearRect(0, 0, 150, 150);
     // sord blade
     var sordGrad = ctx.createLinearGradient(30, 20, 50, 80);
-    sordGrad.addColorStop(0, "#FF4444");
-    sordGrad.addColorStop(0.5, "#BB2222");
-    sordGrad.addColorStop(1, "#442222");
+    sordGrad.addColorStop(0, "#8C2E15");
+    sordGrad.addColorStop(0.5, "#5A0C03");
+    sordGrad.addColorStop(1, "#390A01");
     ctx.strokeStyle = "black";
     ctx.fillStyle = sordGrad;
     ctx.lineWidth = 2.0;
@@ -209,7 +209,7 @@ class Clickable extends React.Component {
 
     //sord hilt
     var hiltGrad = ctx.createLinearGradient(10, 80, 70, 120);
-    hiltGrad.addColorStop(0, "#000000");
+    hiltGrad.addColorStop(0, "#111111");
     hiltGrad.addColorStop(0.5, "#333333");
     hiltGrad.addColorStop(1, "#666666");
     ctx.fillStyle = hiltGrad;
@@ -230,8 +230,8 @@ class Clickable extends React.Component {
     ctx.closePath();
 
     // slime
-    ctx.strokeStyle = "blue";
-    ctx.fillStyle = "blue";
+    ctx.strokeStyle = "#770077";
+    ctx.fillStyle = "#770077";
     ctx.lineWidth = 2.0
     ctx.beginPath();
     ctx.ellipse(120, 60, 25, 25, 0, Math.PI * 1, Math.PI * 2, false);
@@ -263,7 +263,7 @@ class Clickable extends React.Component {
     ctx.closePath();
 
     // slime left pupil
-    ctx.strokeStyle = "blue";
+    ctx.strokeStyle = "#770077";
     ctx.lineWidth = 2.0;
     ctx.beginPath();
     ctx.arc(112, 53, 1, 0, Math.PI * 2, false);
@@ -272,7 +272,7 @@ class Clickable extends React.Component {
     ctx.closePath();
 
     // slime right pupil
-    ctx.strokeStyle = "blue";
+    ctx.strokeStyle = "#770077";
     ctx.lineWidth = 2.0;
     ctx.beginPath();
     ctx.arc(127, 53, 1, 0, Math.PI * 2, false);
@@ -289,9 +289,9 @@ class Clickable extends React.Component {
     ctx.rotate(Math.PI * 0.2);
     // sord blade
     var sordGrad = ctx.createLinearGradient(30, 20, 50, 80);
-    sordGrad.addColorStop(0, "#FF4444");
-    sordGrad.addColorStop(0.5, "#BB2222");
-    sordGrad.addColorStop(1, "#442222");
+    sordGrad.addColorStop(0, "#8C2E15");
+    sordGrad.addColorStop(0.5, "#5A0C03");
+    sordGrad.addColorStop(1, "#390A01");
     ctx.strokeStyle = "black";
     ctx.fillStyle = sordGrad;
     ctx.lineWidth = 2.0;
@@ -317,7 +317,7 @@ class Clickable extends React.Component {
 
     //sord hilt
     var hiltGrad = ctx.createLinearGradient(10, 80, 70, 120);
-    hiltGrad.addColorStop(0, "#000000");
+    hiltGrad.addColorStop(0, "#111111");
     hiltGrad.addColorStop(0.5, "#333333");
     hiltGrad.addColorStop(1, "#666666");
     ctx.fillStyle = hiltGrad;
@@ -340,8 +340,8 @@ class Clickable extends React.Component {
     ctx.restore();
 
     // slime
-    ctx.strokeStyle = "blue";
-    ctx.fillStyle = "blue";
+    ctx.strokeStyle = "#770077";
+    ctx.fillStyle = "#770077";
     ctx.lineWidth = 2.0
     ctx.beginPath();
     ctx.ellipse(120, 60, 25, 25, 0, Math.PI * 1, Math.PI * 2, false);
@@ -373,7 +373,7 @@ class Clickable extends React.Component {
     ctx.closePath();
 
     // slime left pupil
-    ctx.strokeStyle = "blue";
+    ctx.strokeStyle = "#770077";
     ctx.lineWidth = 2.0;
     ctx.beginPath();
     ctx.arc(112, 53, 1, 0, Math.PI * 2, false);
@@ -382,7 +382,7 @@ class Clickable extends React.Component {
     ctx.closePath();
 
     // slime right pupil
-    ctx.strokeStyle = "blue";
+    ctx.strokeStyle = "#770077";
     ctx.lineWidth = 2.0;
     ctx.beginPath();
     ctx.arc(127, 53, 1, 0, Math.PI * 2, false);

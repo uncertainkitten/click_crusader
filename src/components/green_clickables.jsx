@@ -51,9 +51,9 @@ class GreenClickable extends React.Component {
     ctx.clearRect(0, 0, 150, 150);
     // face outer line
     var smileGrad = ctx.createLinearGradient(0, 0, 149, 149);
-    smileGrad.addColorStop(0, "#44FF44");
-    smileGrad.addColorStop(0.5, "#22AA22");
-    smileGrad.addColorStop(1, "#224422");
+    smileGrad.addColorStop(0, "#0B5545");
+    smileGrad.addColorStop(0.5, "#085534");
+    smileGrad.addColorStop(1, "#053323");
     ctx.strokeStyle = "black";
     ctx.fillStyle = smileGrad;
     ctx.lineWidth = 2.0;
@@ -139,9 +139,9 @@ class GreenClickable extends React.Component {
     ctx.clearRect(0, 0, 150, 150);
     // face outer line
     var smileGrad = ctx.createLinearGradient(0, 0, 149, 149);
-    smileGrad.addColorStop(0, "#44FF44");
-    smileGrad.addColorStop(0.5, "#22AA22");
-    smileGrad.addColorStop(1, "#224422");
+    smileGrad.addColorStop(0, "#0B5545");
+    smileGrad.addColorStop(0.5, "#085534");
+    smileGrad.addColorStop(1, "#053323");
     ctx.strokeStyle = "black";
     ctx.fillStyle = smileGrad;
     ctx.lineWidth = 2.0;
@@ -218,9 +218,9 @@ class GreenClickable extends React.Component {
     ctx.clearRect(0, 0, 150, 150);
     // hand outline
     var smileGrad = ctx.createLinearGradient(0, 0, 149, 149);
-    smileGrad.addColorStop(0, "#44FF44");
-    smileGrad.addColorStop(0.5, "#22AA22");
-    smileGrad.addColorStop(1, "#224422");
+    smileGrad.addColorStop(0, "#0B5545");
+    smileGrad.addColorStop(0.5, "#085534");
+    smileGrad.addColorStop(1, "#053323");
     ctx.strokeStyle = "black";
     ctx.fillStyle = smileGrad;
     ctx.lineWidth = 2.0;

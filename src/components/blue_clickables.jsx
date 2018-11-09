@@ -50,9 +50,9 @@ class BlueClickable extends React.Component {
     ctx.clearRect(0, 0, 150, 150);
     // coin outer line
     var coinGrad = ctx.createLinearGradient(0, 0, 149, 149);
-    coinGrad.addColorStop(0, "#4444FF");
-    coinGrad.addColorStop(0.5, "#2222AA");
-    coinGrad.addColorStop(1, "#222244");
+    coinGrad.addColorStop(0, "#521079");
+    coinGrad.addColorStop(0.5, "#310028");
+    coinGrad.addColorStop(1, "#200017");
     ctx.strokeStyle = "black";
     ctx.fillStyle = coinGrad;
     ctx.lineWidth = 2.0;
@@ -110,8 +110,8 @@ class BlueClickable extends React.Component {
     // coin outer line
     var coinGrad = ctx.createLinearGradient(0, 0, 149, 149);
     coinGrad.addColorStop(0, "gold");
-    coinGrad.addColorStop(0.5, "#2222AA");
-    coinGrad.addColorStop(1, "#222222");
+    coinGrad.addColorStop(0.5, "#521059");
+    coinGrad.addColorStop(1, "#310028");
     ctx.strokeStyle = "black";
     ctx.fillStyle = coinGrad;
     ctx.lineWidth = 2.0;

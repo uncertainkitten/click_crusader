@@ -15,8 +15,8 @@
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #111111;
-  border: 3px double white;
+  background-color: #010101;
+  border: 5px double #321039;
 }
 
 .objectContainer{
@@ -33,8 +33,8 @@
   align-items: flex-start;
   width: 300px;
   height: 250px;
-  border-right: 3px double white;
-  border-bottom: 3px double white;
+  border-right: 3px double #321039;
+  border-bottom: 3px double #321039;
 }
 
 .clickerContainer {
@@ -44,14 +44,14 @@
   align-content: center;
   width: 300px;
   height: 625px;
-  border-right: 3px double white;
-  border-top: 3px double white;
+  border-right: 3px double #321039;
+  border-top: 3px double #321039;
 }
 
 .powerPlay {
   font-family: 'Trade Winds', cursive;
   height: 30px;
-  color: #BB2222;
+  color: #8C2E15;
   padding-top: 5px;
   padding-left: 20px;
   -webkit-touch-callout: none;
@@ -63,8 +63,8 @@
 }
 
 .reset{
-  background-color: #111111;
-  color: #FFFFFF;
+  background-color: #010101;
+  color: #D5C3C0;
   box-shadow: none;
   border: 0px;
   padding: 2px;
@@ -82,7 +82,7 @@
 }
 
 .reset:hover{
-  background-color: #222222;
+  background-color: #060606;
   cursor: pointer;
 }
 
@@ -90,9 +90,9 @@
   display: flex;
   position: relative;
   z-index: 1;
-  color: white;
+  color: #D5C3C0;
   background: #111111;
-  border: 1px dashed white;
+  border: 1px dashed #D5C3C0;
   width: 200px;
 }
 
@@ -110,9 +110,9 @@
 .producerButton {
   width: 250px;
   height: 80px;
-  background-color: #BB2222;
-  color: white;
-  border: 8px solid #111111;
+  background-color: #8C2E15;
+  color: #D5C3C0;
+  border: 8px solid #010101;
   border-radius: 4px;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .errors {
-  color: #FFFFFF;
+  color: #D5C3C0;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 12pt;
 }
@@ -139,17 +139,6 @@
   margin-right: 20px;
 }
 
-.attack {
-  flex-basis: 30%;
-  border-radius: 50%;
-  background-color: #BB2222;
-  border: 3px double #333333;
-  height: 125px;
-  color: #FFFFFF;
-  font-family: 'Trade Winds', cursive;
-  font-size: 12px;
-  padding: 1em;
-}
 
 .attackCanv:hover{
   cursor: crosshair;
@@ -169,7 +158,7 @@
 }
 
 .buttonText {
-  color: #FFFFFF;
+  color: #D5C3C0;
   font-size: 9pt;
   font-family: 'Trade Winds', cursive;
   margin: 0 auto;
@@ -184,7 +173,7 @@
 }
 
 .eventText {
-  color: #FFFFFF;
+  color: #D5C3C0;
   font-size: 24pt;
   font-family: 'Spirax', cursive;
   flex-basis: 100%;
@@ -200,11 +189,11 @@
   font-size: 16pt;
   font-family: 'Trade Winds', cursive;
   margin-right: 10px;
-  color: #BB2222;
+  color: #8C2E15;
   flex-basis: 25%;
   box-shadow: 0;
   border: 0;
-  background-color: #111111;
+  background-color: #010101;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -214,15 +203,14 @@
 }
 
 .blueText {
-  color: #FFFFFF;
-  font-size: 16pt;
+font-size: 16pt;
   font-family: 'Spirax', cursive;
   margin-right: 10px;
-  color: #2222BB;
+  color: #420039;
   flex-basis: 25%;
   box-shadow: 0;
   border: 0;
-  background-color: #111111;
+  background-color: #010101;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -232,16 +220,15 @@
 }
 
 .greenText {
-  color: #FFFFFF;
   font-size: 16pt;
   margin-right: 10px;
   background-color: FFFFF;
-  color: #22BB22;
+  color: #0B2545;
   font-family: 'Kaushan Script', cursive;
   flex-basis: 25%;
   box-shadow: 0;
   border: 0;
-  background-color: #111111;
+  background-color: #010101;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -251,22 +238,22 @@
 }
 
 .redText:hover{
-  background-color: #333333;
+  background-color: #221111;
   cursor: crosshair;
 }
 
 .blueText:hover{
-  background-color: #333333;
+  background-color: #111122;
   cursor: cell;
 }
 
 .greenText:hover{
-  background-color: #333333;
+  background-color: #112211;
   cursor: vertical-text;
 }
 
 .blueButtonText{
-  color: white;
+  color: #D5C3C0;
   font-family: 'Spirax', cursive;
   font-size: 10pt;
   margin: 0 auto;
@@ -287,7 +274,7 @@
 .moneyTalks{
   font-family: 'Spirax', cursive;
   height: 30px;
-  color: #2222BB;
+  color: #7D0037;
   padding-top: 5px;
   padding-left: 20px;
   -webkit-touch-callout: none;
@@ -298,18 +285,6 @@
   user-select: none;
 }
 
-.ka-ching{
-  width: 125px;
-  border-radius: 50%;
-  background-color: #2222BB;
-  border: 3px double #333333;
-  height: 125px;
-  color: #FFFFFF;
-  font-family: 'Spirax', cursive;
-  font-size: 12pt;
-  padding: 1em;
-}
-
 .cashCanv{
   cursor: cell;
 }
@@ -317,19 +292,18 @@
 .blueProducerButton{
   width: 250px;
   height: 80px;
-  background-color: #2222BB;
-  color: white;
-  border: 8px solid #111111;
+  background-color: #420039;
+  border: 8px solid #010101;
   border-radius: 4px;
 }
 
 .ka-ching:hover{
-  background-color: #4444CC;
+  background-color: #420039;
   cursor: cell;
 }
 
 .blueProducerButton:hover{
-  background-color: #4444CC;
+  background-color: #64225A;
   cursor: cell;
 }
 
@@ -343,8 +317,8 @@
   position: relative;
   z-index: 1;
   bottom: 65px;
-  background-color: #4444CC;
-  border: 1px dashed white;
+  background-color: #64225A;
+  border: 1px dashed #D5C3C0;
 }
 
 .visibleBlueStat{
@@ -352,8 +326,8 @@
   flex-flow: column wrap;
   position: relative;
   z-index: 1;
-  background-color: #4444CC;
-  border: 1px dashed white;
+  background-color: #64225A;
+  border: 1px dashed #D5C3C0;
   left: -20px;
   bottom: 40px;
 }
@@ -361,7 +335,7 @@
 .blueStatToolText{
   font-family: 'Spirax', cursive;
   font-size: 10pt;
-  color: white;
+  color: #D5C3C0;
   margin: 0 auto;
   padding: 5px;
   -webkit-touch-callout: none;
@@ -379,8 +353,8 @@
   position: relative;
   z-index: 1;
   bottom: 65px;
-  background-color: #CC4444;
-  border: 1px dashed white;
+  background-color: #AE4F37;
+  border: 1px dashed #D5C3C0;
 }
 
 .visibleRedStat{
@@ -388,15 +362,15 @@
   flex-flow: column wrap;
   position: relative;
   z-index: 1;
-  background-color: #CC4444;
-  border: 1px dashed white;
+  background-color: #AE4F37;
+  border: 1px dashed #D5C3C0;
   left: -20px;
   bottom: 60px;
 }
 
 .redStatToolText{
   font-size: 10pt;
-  color: white;
+  color: #D5C3C0;
   font-family: 'Trade Winds', cursive;
   margin: 0 auto;
   padding: 5px;
@@ -414,8 +388,8 @@
   position: relative;
   z-index: 1;
   bottom: 65px;
-  background-color: #44CC44;
-  border: 1px dashed white;
+  background-color: #2D4767;
+  border: 1px dashed #D5C3C0;
 }
 
 .visibleGreenStat{
@@ -423,8 +397,8 @@
   flex-flow: column wrap;
   position: relative;
   z-index: 1;
-  background-color: #44CC44;
-  border: 1px dashed white;
+  background-color: #2D4767;
+  border: 1px dashed #D5C3C0;
   left: -20px;
   bottom: 40px;
   -webkit-touch-callout: none;
@@ -438,7 +412,7 @@
 .greenStatToolText{
   font-family: 'Kaushan Script', cursive;
   font-size: 10pt;
-  color: white;
+  color: #D5C3C0;
   margin: 0 auto;
   padding: 5px;
   -webkit-touch-callout: none;
@@ -452,7 +426,7 @@
 .blueToolText{
   font-family: 'Spirax', cursive;
   font-size: 12pt;
-  color: white;
+  color: #D5C3C0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -464,7 +438,7 @@
 .redToolText{
   font-family: 'Trade Winds', cursive;
   font-size: 12pt;
-  color: white;
+  color: #D5C3C0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -476,7 +450,7 @@
 .greenToolText{
   font-family: 'Kaushan Script', cursive;
   font-size: 10pt;
-  color: white;
+  color: #D5C3C0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -488,7 +462,7 @@
 .friendshipMagic{
   font-family: 'Kaushan Script', cursive;
   height: 30px;
-  color: #22BB22;
+  color: #123524;
   padding-top: 5px;
   padding-left: 20px;
   -webkit-touch-callout: none;
@@ -506,19 +480,19 @@
 .greenProducerButton{
   width: 250px;
   height: 80px;
-  background-color: #22BB22;
-  color: white;
-  border: 8px solid #111111;
+  background-color: #0B2545;
+  color: #D5C3C0;
+  border: 8px solid #010101;
   border-radius: 4px;
 }
 
 .greenProducerButton:hover{
-  background-color: #44BB44;
+  background-color: #2D2567;
   cursor: vertical-text;
 }
 
 .greenButtonText{
-  color: white;
+  color: #D5C3C0;
   font-family: 'Kaushan Script', cursive;
   font-size: 9pt;
   margin: 0 auto;
@@ -535,17 +509,17 @@
 .magic{
   width: 125px;
   border-radius: 50%;
-  background-color: #22BB22;
+  background-color: #0B2545;
   border: 3px double #333333;
   height: 125px;
-  color: #FFFFFF;
+  color: #D5C3C0;
   font-family: 'Spirax', cursive;
   font-size: 12pt;
   padding: 1em;
 }
 
 .magic:hover{
-  background-color: #44BB44;
+  background-color: #2D2567;
   cursor: vertical-text;
 }
 
@@ -554,7 +528,7 @@
 }
 
 .main{
-  background: linear-gradient(to bottom right, #6600cc 0%, #00ff00 100%);
+  background: linear-gradient(to bottom right, #8C2E15 0%, #321039 100%);
   background-repeat: none;
   height: 950px;
 }
